@@ -5,7 +5,7 @@ interface Props{
 const Login = ({connectWallet} : Props) => {
   return (
     <div>
-    <h1>Welcome to Goreli Testnet: Random Number Generator</h1>
+    <h1>Welcome to Polygon Testnet (Mumbai): Random Number Generator</h1>
     <button onClick={()=> connectWallet()}>LogIn Metamask</button>
   </div>
   )
